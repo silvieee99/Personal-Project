@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body style="padding-top: 50px">
+    <button
+      onclick="
+      console.log(`Cart quantity:${cartQuantity}`);
+      "
+    >
+      Show Quantity
+    </button>
+    <button
+      onclick="
+    cartQuantity = cartQuantity + 1
+    /* cartQuantity+=1;
+    cartQuantity++; */
+    console.log(`Cart quantity:${cartQuantity}`);"
+    >
+      Add to Cart
+    </button>
+    <button
+      onclick="cartQuantity = cartQuantity + 2
+    console.log(`Cart quantity:${cartQuantity}`);"
+    >
+      +2
+    </button>
+    <button
+      onclick="cartQuantity = cartQuantity+3
+      console.log(`Cart quantity:${cartQuantity}`);"
+    >
+      +3
+    </button>
+    <button
+      onclick="cartQuantity = 0
+      console.log('Cart button was reset');
+    console.log(`Cart quantity:${cartQuantity}`);"
+    >
+      Reset Cart
+    </button>
+
+    <script>
+      let cartQuantity = 0;
+
+      const Age = 20;
+      const name = "silvia";
+      var occupation = "web developer";
+      console.log(typeof name);
+      console.log(typeof Age);
+      console.log(typeof occupation);
+      //BOOLEAN
+      //true and false
+      true;
+      false;
+      console.log(typeof true);
+      console.log(typeof false);
+      console.log(5 > 10);
+      console.log(5 === "5");
+      //IF AND ELSE STATEMENT
+      drivingAge = 18;
+      if (30 <= drivingAge) {
+        console.log("You're too young to drive");
+      } else if (drivingAge < 12) {
+        console.log("You can drive with a parent or guardian");
+      } else {
+        console.log("You can drive now");
+      }
+    </script>
+  </body>
+</html>

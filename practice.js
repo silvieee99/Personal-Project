@@ -53,3 +53,23 @@
       console.log(FriendsAge(35, 36, 37, 38, 39)); // Calling the FriendsAge function with another set of ages of friends
       console.log(FriendsAge(40, 41, 42, 43, 44)); // Calling the FriendsAge function with yet another set of ages of friends
       console.log(FriendsAge(45, 46, 47, 48, 49)); // Calling the FriendsAge function with a final set of ages of friends
+//Arrays usually start with []
+var silviaDetails = ["Silvia", 25, "Developer", "Nigeria"];
+var Mydetails = silviaDetails[0];
+console.log(Mydetails); // Logging the first element of the silviaDetails array
+var Mydetails = silviaDetails[3];
+console.log(Mydetails); // Logging the first element of the silviaDetails array
+silviaDetails[1] = "23"; // Reassigning the first element of the silviaDetails array
+console.log(silviaDetails); // Logging the updated silviaDetails array
+var silviaDetails = [["Silvia", 25, "Developer", "Nigeria"],["Dogs","Spaghetti", "CowLeg"]]; // Creating a nested array
+WhatSilviaLikes = silviaDetails[1][0]; // Accessing the first element of the second array in the nested array
+console.log(WhatSilviaLikes); // Logging the first element of the second array in the nested array
+silviaDetails.push(["Smart","confident","focused"]);  // Adding a new element to the silviaDetails array
+console.log(silviaDetails); // Logging the updated silviaDetails array
+var silviaDetails = [["Silvia", 25, "Developer", "Nigeria"],["Dogs","Spaghetti", "CowLeg"],["Smart","confident","focused"]]; // Creating a nested array with three arrays
+RemovedSilviaDetails = silviaDetails.pop(); // Removing the last element of the silviaDetails array
+console.log(RemovedSilviaDetails); // Logging the removed element from the silviaDetails array
+console.log(silviaDetails); // Logging the updated silviaDetails array after removing the last element
+
+
+
